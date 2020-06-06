@@ -1,6 +1,25 @@
 $top-offset: 0;
 $bp: 35rem;
 
+/* Links inside the navbar */
+/* Change background on mouse-over */
+.navbar {
+	overflow: fixed;
+  background-color: #0A090C;
+	position: fixed;
+	top: 0rem;
+  width: 100%;
+  z-index: 1;
+	a {
+		float: left;
+		display: block;
+		color: #f2f2f2;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+}
+
 section {
   position: relative;
 }
@@ -26,7 +45,8 @@ body {
 
 h1 {
   text-align: center;
-  margin-bottom: 3rem;
+  margin: 5rem;
+  padding: 5rem;
 }
 
 section {
