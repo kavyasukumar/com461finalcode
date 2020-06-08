@@ -5,6 +5,12 @@
 		},
 		{
 			"path": "../../../../../Downloads/uw-web-101-master/Mapbox"
+		},
+		{
+			"path": "Total accidents"
 		}
-	]
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Seattle_bike_safe"
+	}
 }

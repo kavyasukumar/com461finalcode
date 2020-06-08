@@ -39,6 +39,18 @@ body {
 
 }
 
+#totalaccident {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.static-content{
+  margin-left: 1rem;
+  margin-top: 3rem;
+  padding: 3rem;
+  text-align: inherit;
+}
+
 #author{
   text-align: center;
 }
@@ -93,3 +105,4 @@ bottom {
     position: fixed;
     display: inline-block;
 }
+

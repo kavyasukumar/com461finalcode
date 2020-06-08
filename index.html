@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.scss">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style.css.map">
+    
 </head>
 <div class="navbar">
   <a href="#mapping_accidents">Mapping Accidents</a>
@@ -17,23 +18,39 @@
 </div>
 <body>
 
-  <h1>Bicyclists in Seattle face danger, but conditions are improving</h1>
+  <h1>Seattle has a storied history with bicyclists, will 20 new miles of pedestrian only roadways help? 
+  </h1>
+  <h4><em>Streets permenantly closed to traffic in lieu of the coronavirus pandemic have drawn more people than ever to pedestrian centered activities, but accidents are still a problem.</em></h4>
   <p id="author"> By: Sammi Bushman </p>
+
+  <div class="static-content">
+    <p>Seattle's officials pledged major changes for cyclists this May, after the Coronavirus pandemic saw a 57% drop in vehicle traffic within city limits. In April, Seattle launched “Stay Healthy” streets, which made roadways with motorized vehicles car free. The closures have been such a success that 20 miles are now set to become permanent, after a 300% increase in bicycle traffic was noted after cars went away.
+      But for years, Seattle has been criticized that bike infrastructure development isn’t keeping up with the needs of cyclists. A 2017 report by the Washington State Department of Transportation found the number of pedestrian deaths including cyclists in Washington State nearly doubled over the previous decade.
+      </p>
+  </div>
   
   <section id="mapping_accidents">
     
     <figure style= "background-color: #0A090C;">
-      <p>Overview said boi facts</p>
+      <p></p>
     </figure>
     
     <article class="top" style="color:white;">
-      <p> In 2019, Seattle had <strong> 29 </strong> vehicle involved bike accidents</p>
+      <p> Between 2004 and 2019, there were <strong>5,906</strong> bicycle-involved accidents in Seattle</p>
       
-      <p> <strong> 2 </strong> were fatal </p>
+      <p> <strong>5, 210</strong> resulted in injury </p>
+      <p><strong>27</strong> were fatal</p>
       
-      <p>While this may seem like a lot, Seattle has seen a drastic decrease in bicycle involved accidents over the past decade</p>
-      <p> [Graph here] </p>
+      <p>While the city of Seattle is actively making changes to ensure safety for pedestrians and cyclists</p>
+      <p>Accident numbers have stagnated at rates inconsistant with population and popularity increase</p>
+      <!-- partial:index.partial.html -->
+<p id="totalaccident" >Total bike accidents in Seattle</p>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js'></script>
+  
+  <script  src="./script.js"></script>
     </article>
+
   <!-- Mapbox map of 2019 accidents versus "risk areas"   -->
   <!--  Paragraph/ analysis ~Many bicycle accidents go unreported~ 28 of these crashes wer single vehicle related, 18 were at intersections.-->
  
@@ -69,6 +86,7 @@
   <!-- Break -->
 
   <div class="static-content" style="background-color: #F0EDEE; color: black;">
+    <h2>Mapping accidents</h2>
 
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum tellus felis, at lobortis orci sollicitudin ac. Donec lobortis sapien ac posuere faucibus. Mauris lectus neque, pretium non volutpat eget, vestibulum at magna. In sollicitudin augue nunc, non bibendum augue ornare quis.</p>  
     <p>Integer accumsan interdum justo eu pretium. Aliquam maximus mi sit amet dapibus efficitur.</p>  
@@ -91,6 +109,7 @@
       
       <p>Sed condimentum lacus sit amet turpis aliquam varius nec a lacus. In facilisis convallis ante sit amet consequat. Aenean a lorem mollis, bibendum nibh nec, maximus orci. Nulla facilisi.</p>
     </article>
+    </section>
 
     <!-- Static Section -->
     
@@ -133,8 +152,9 @@
       <p>Sed condimentum lacus sit amet turpis aliquam varius nec a lacus. In facilisis convallis ante sit amet consequat. Aenean a lorem mollis, bibendum nibh nec, maximus orci. Nulla facilisi.</p>
     </div>
 
+  </body>
+
   <footer>
     <p>credits to: </p>
   </footer>
   
-<html>
