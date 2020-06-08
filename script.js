@@ -134,5 +134,6 @@ var data = [
     .attr("transform", `translate(0, 0)`)
     .call(d3.axisLeft(yScale));
 
+    
 
 

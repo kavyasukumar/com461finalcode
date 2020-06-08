@@ -8,6 +8,9 @@
 		},
 		{
 			"path": "Total accidents"
+		},
+		{
+			"path": "../Bike_data"
 		}
 	],
 	"settings": {
