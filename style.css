@@ -18,6 +18,13 @@
   text-decoration: none;
 }
 
+#subhead {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  padding: 2rem;
+  text-align: center;
+}
+
 section {
   position: relative;
 }
@@ -115,6 +122,21 @@ figure {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  display: static;
+  height: 90vh;
+  margin: 0;
+  width: 120%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 0;
+  z-index: -1;
+}
+
+.map2 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-item-align: start;
       align-self: flex-start;
   display: -webkit-box;
@@ -130,7 +152,7 @@ figure {
   z-index: -1;
 }
 
-.map2 {
+#bikecount {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
